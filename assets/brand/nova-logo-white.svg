@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 422 100" role="img" aria-label="NOVA Workspace">
+  <title>NOVA Workspace</title>
+  <defs>
+    <linearGradient id="nova-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0,0)">
+    <rect x="0" y="0" width="100" height="100" rx="22" fill="url(#nova-bg)"/>
+    <g fill="#ffffff">
+      <rect x="26" y="22" width="15" height="56" rx="2"/>
+      <rect x="59" y="22" width="15" height="56" rx="2"/>
+      <path d="M38,22 H53 L74,78 H59 Z"/>
+    </g>
+  </g>
+  <g fill="#ffffff">
+    <path d="M120,0 H135 L173,76 V0 H188 V100 H173 L135,24 V100 H120 Z"/>
+    <path fill-rule="evenodd" d="M231,0 C210,0 196,14 196,35 V65 C196,86 210,100 231,100 C252,100 266,86 266,65 V35 C266,14 252,0 231,0 Z M231,15 C243,15 251,23 251,35 V65 C251,77 243,85 231,85 C219,85 211,77 211,65 V35 C211,23 219,15 231,15 Z"/>
+    <path d="M274,0 H291 L308,72 L325,0 H342 L318,100 H298 Z"/>
+    <path fill-rule="evenodd" d="M350,100 L376,0 H396 L422,100 H405 L400,78 H372 L367,100 Z M377,62 H395 L386,24 Z"/>
+  </g>
+</svg>

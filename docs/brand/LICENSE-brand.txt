@@ -1,0 +1,15 @@
+NOVA Workspace brand assets
+===========================
+
+The files in this folder are the NOVA Workspace brand assets:
+
+  nova-mark.svg          the NOVA mark: a violet rounded square with a white N
+  nova-logo.svg          the NOVA wordmark with the four application colours
+  nova-logo-white.svg    the same wordmark in white, for dark backgrounds
+  nova-mark-black.svg    the mark in solid black, for light backgrounds
+
+They are original work created for NOVA Workspace and are licensed under
+MIT OR Apache-2.0, the same terms as the rest of this repository.
+
+No third-party trademark is used: the NOVA Workspace name and marks belong to this
+build alone.

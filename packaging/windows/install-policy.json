@@ -1,0 +1,150 @@
+{
+  "id": "gridcraft",
+  "name": "NOVA Grid",
+  "upgradeCode": "5511327B-F305-41BE-92D0-EB84944E7C4D",
+  "sources": [
+    "gridcraft.wxs"
+  ],
+  "icon": "assets/app-icon/gridcraft.ico",
+  "localization": [],
+  "extensions": [],
+  "payloads": [
+    "gridcraft-cli.exe",
+    "gridcraft.exe"
+  ],
+  "registry": [
+    [
+      "-1",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\gridcraft.exe",
+      "",
+      "[#GridcraftExe]"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Grid.Workbook",
+      "",
+      "NOVA Grid Workbook"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Grid.Workbook\\DefaultIcon",
+      "",
+      "\"[#GridcraftExe]\",0"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Grid.Workbook\\shell\\open\\command",
+      "",
+      "\"[#GridcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Grid.TextData",
+      "",
+      "NOVA Grid Text Data"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Grid.TextData\\DefaultIcon",
+      "",
+      "\"[#GridcraftExe]\",0"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Grid.TextData\\shell\\open\\command",
+      "",
+      "\"[#GridcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.xlsx\\OpenWithProgids",
+      "NOVA Grid.Workbook",
+      "NOVA Grid.Workbook"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.xlsm\\OpenWithProgids",
+      "NOVA Grid.Workbook",
+      "NOVA Grid.Workbook"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.xlsb\\OpenWithProgids",
+      "NOVA Grid.Workbook",
+      "NOVA Grid.Workbook"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.ods\\OpenWithProgids",
+      "NOVA Grid.Workbook",
+      "NOVA Grid.Workbook"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.csv\\OpenWithProgids",
+      "NOVA Grid.TextData",
+      "NOVA Grid.TextData"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.tsv\\OpenWithProgids",
+      "NOVA Grid.TextData",
+      "NOVA Grid.TextData"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Capabilities",
+      "ApplicationName",
+      "NOVA Grid"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Capabilities",
+      "ApplicationDescription",
+      "Open-source spreadsheet for .xlsx, CSV and TSV files"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Capabilities\\FileAssociations",
+      ".xlsx",
+      "NOVA Grid.Workbook"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Capabilities\\FileAssociations",
+      ".xlsm",
+      "NOVA Grid.Workbook"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Capabilities\\FileAssociations",
+      ".csv",
+      "NOVA Grid.TextData"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Capabilities\\FileAssociations",
+      ".tsv",
+      "NOVA Grid.TextData"
+    ],
+    [
+      "-1",
+      "Software\\RegisteredApplications",
+      "NOVA Grid",
+      "Software\\NOVA Grid\\Capabilities"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Installer",
+      "DesktopShortcut",
+      "[DESKTOPSHORTCUT]"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Grid\\Installer",
+      "DesktopShortcutComponent",
+      "#1"
+    ]
+  ],
+  "mode": "dualScope"
+}
